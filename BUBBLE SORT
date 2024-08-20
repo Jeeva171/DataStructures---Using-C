@@ -28,7 +28,7 @@
       }}}
   printf("Sorted is :\n");
   c++;
-  for (i = 0;i< n;i++,){
+  for (i = 0;i< n;i++){
         c++;
   printf("%d\n",a[i]);
   c++;
