@@ -2,6 +2,7 @@
   void main()
 {
   int a[100], n, i, j,temp,c=0 ;
+  c++;
   printf("Enter number of elements:\n");
   c++;
   scanf("%d", &n);
@@ -16,7 +17,7 @@
    c++;
   for (i=0;i< n - 1;i++)
   {
-      c++;
+      c+2;
     for (j= 0 ;j< n-i-1;j++)
     {
         c++;
@@ -27,7 +28,7 @@
         a[j+1] =temp;c++;
       }}}
   printf("Sorted is :\n");
-  c++;
+  c+2;
   for (i = 0;i< n;i++){
         c++;
   printf("%d\n",a[i]);
